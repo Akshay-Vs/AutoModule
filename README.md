@@ -25,17 +25,15 @@ ______
   <br>or click <a href="https://github.com/Akshay-Vs/AutoModule/archive/refs/heads/main.zip">download</a>
  
  <h2 align='left'><u><b>Requerments</b></u></h2>
- &bull; PassLock requered python 3.7 and above<br>
- &bull; PassLock requeres 3 third party modules, and it will automatically install while running<br>
-
-   
+ &bull; AutoModule requered python 3.7 and above<br>
+  
 | requermets | requered version |
 | ---------  | ---------------- |
 | Python     | 3.7+             |
 | termcolor  | 1.1+             |
 
 <h2 align='left'><u><b>Development</b></u></h2>
-&bull; Version 1.0<br>
+&bull; Version 0.1<br>
 &bull; Version history:
 <tab>
 
@@ -62,11 +60,15 @@ _____________
 
 
 <h2 align='left'><u><b>Usage</b></u></h2>
-<code>
-      import Automodle<br>
+<code>Initialisation
+ 
+ 
+      import Automodle
       Automodule.initialise(2)
 
-      #__Your Code__</code><br>
+      #__Your Code__
+</code>
+<br>
 
 
 
