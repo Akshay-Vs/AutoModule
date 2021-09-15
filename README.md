@@ -1,4 +1,4 @@
-<h1 align="center">:closed_lock_with_key:Pass Lock <br>AutoModule
+<h1 align="center"> <br>AutoModule
  </h1>
 <h3 align="center">A package managing tool that downloads and import missing modules and packages(AES)</h3>
 
@@ -21,8 +21,8 @@ ______
  
  <h2 align='left'><u><b>Installation</b></u></h2>
  <p>Install using git bash 
- <code>$git clone https://github.com/Akshay-Vs/AES-encrypted-password-manager.git</code>
-  <br>or click <a href="https://github.com/Akshay-Vs/AES-encrypted-password-manager/archive/refs/heads/main.zip">download</a>
+ <code>$git clone https://github.com/Akshay-Vs/AutoModule.git</code>
+  <br>or click <a href="https://github.com/Akshay-Vs/AutoModule/archive/refs/heads/main.zip">download</a>
  
  <h2 align='left'><u><b>Requerments</b></u></h2>
  &bull; PassLock requered python 3.7 and above<br>
