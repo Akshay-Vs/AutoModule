@@ -63,7 +63,7 @@ _____________
 <code>Initialisation
  
  
-      import Automodle
+      import Automodule
       Automodule.initialise(2)
 
       #__Your Code__
