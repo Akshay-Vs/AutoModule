@@ -1,6 +1,6 @@
 <h1 align="center"> <br>AutoModule
  </h1>
-<h3 align="center">A package managing tool that downloads and import missing modules and packages(AES)</h3>
+<h3 align="center">A package managing tool that downloads and import missing modules and packages</h3>
 
 ______
 
