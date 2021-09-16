@@ -24,7 +24,6 @@ import importlib, importlib.util
 import sys
 import os
 import platform
-from console import AutopyConsole
 import warnings
 import termcolor
 
@@ -118,9 +117,9 @@ console.console()
 error=console.get_error_message()
 poss_error="ModuleNotFoundError"
 if poss_error in error:print("A module is not installed")
-'''
+
 class hook(AutopyConsole):
-  """Hook differrrent distros for different operating systems"""
+  #Hook differrrent distros for different operating systems
   processor=platform.processor()
   operating_system=platform.platform()
 
@@ -164,8 +163,7 @@ class hook(AutopyConsole):
   
   def install(self,name,spec_os=None):
     print(f"You are using {spec_os} with a {self.processor}")
-    
-    ######--NOT COMPLETED--########
+    '''
     
 def initialize(runfile,iteration=1):
   clear()
