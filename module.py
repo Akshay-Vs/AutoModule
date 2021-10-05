@@ -108,62 +108,6 @@ def remove(name):
 def clear():
    if os.name=='posix':_=os.system('clear')
    else:_=os.system('cls')
-
-
-'''
-console = AutopyConsole()
-console.shellify(__file__)
-console.console()
-error=console.get_error_message()
-poss_error="ModuleNotFoundError"
-if poss_error in error:print("A module is not installed")
-
-class hook(AutopyConsole):
-  #Hook differrrent distros for different operating systems
-  processor=platform.processor()
-  operating_system=platform.platform()
-
-  def __init__(self,name,processor=None,operating_system=None):
-    super().__init__()
-    super().shellify(__file__)
-    super().console()
-    super().get_error_msg()
-    self.processor=processor
-    self.operating_system=operating_system
-    self.name=name
-    clear()
-    self.system_spec()
-
-  @classmethod
-  def system_spec(self,operating_system="MAC OS",processor="M1"):
-    if "Windows" in self.operating_system:
-      operating_system="Windows Distro"
-      self.install(self,spec_os=operating_system,name=None)
-
-    elif "Ubuntu" in self.operating_system:
-      operating_system="Ubuntu Distro"
-      self.install(self,os=operating_system)
-
-    elif "Mac" in self.operating_system:
-      operating_system="Mac OS"
-      self.install(self,os=operating_system)
-
-    elif "Chrome" in self.operating_system:
-      operating_system="Chrome OS"
-      self.install(self,os=operating_system)
-
-
-  def get_name():
-    console = AutopyConsole()
-    console.shellify(__file__)
-    console.console()
-    poss_error="ModuleNotFoundError"
-    if poss_error in error:print("A module is not installed")
-    print(ImportError.__class__.__name__ + ": " + ImportError)
-  
-  def install(self,name,spec_os=None):
-    print(f"You are using {spec_os} with a {self.processor}")
-    '''
     
 def initialize(runfile,iteration=1):
   clear()
