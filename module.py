@@ -4,7 +4,6 @@ Package Handling Tool
 ======================
 This will automatically install missing modules from the current working file\n
 --------------------------------------------------------------------------
-All you need to do is initialize the module 
 >>> from module import intialize
 >>> initialize(__file__) #with default iteration
 >>> #you can also use custom iterations but not recommended eg:(__file__,3)
